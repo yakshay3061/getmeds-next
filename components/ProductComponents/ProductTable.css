@@ -1,0 +1,154 @@
+.product-table{
+    padding-top: 10vh;
+}
+
+.search-heading{
+    color: #000; 
+    /* font-family: Inter; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
+
+.product-categories{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.product-categories p{
+    color: #000;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 131.25% */
+}
+
+.product-search{
+    /* margin-right: 5.5rem;
+    margin-left: 5.5rem; */
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    border-radius: 12px;
+    background: #EBECED;
+    display: flex;
+    height: 141px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    padding-right: 72px;
+    padding-left: 72px;
+    /* padding: 24px 72px 32px 72px; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background: url('../../public/pills-img.png') #EBECED 80% / cover no-repeat;    
+    background-position: 100% 70%;
+    background-size: 300px 100px;
+}
+
+.input-container{
+    position: relative;
+    width: 83%;
+}
+
+.product-search input{
+    display: flex;
+    /* width: 60vw; */
+    width: 100%;
+    padding: 10px 18px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #000;
+    padding-right: 45px;
+}
+
+
+.search-svg{
+    position: absolute;
+    margin-top: 9px;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    width: 50px;
+
+
+}
+
+
+.table{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.table-heading{
+margin-top: 4rem;
+margin-bottom: 4rem;
+text-align: center;
+color: #000;
+/* font-family: Inter; */
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+
+
+@media (max-width: 850px) {
+    .input-container{
+        width: 90%
+    }
+    .product-search{
+        padding-right: 30px;
+        padding-left: 30px;
+        background-position: 120% 70%;
+
+    }
+
+    .search-heading{
+        font-size: 18px;
+    }
+
+    .product-search input::placeholder {
+        font-size: 10px;
+    }
+
+    .product-categories p{
+        font-size: 12px;
+    }
+
+    .product-search{
+        margin-right: 4rem;
+        margin-left: 4rem;
+
+    }
+}
+
+
+
+
+
+
+@media (max-width : 500px) {
+    .product-categories{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .product-search{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+

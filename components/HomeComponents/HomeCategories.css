@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+
+.categories{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    text-align: center;
+}
+
+.categories-heading{
+    color: #000;
+    text-align: center;
+    /* font-family: Manrope; */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 58px; /* 120.833% */
+    margin-bottom: 16px;
+}
+
+.categories-desc{
+    color: rgba(0, 0, 0, 0.50);
+    text-align: center;
+    /* font-family: Manrope; */
+    margin-right: 4rem;
+    margin-left: 4rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.categories-card-container{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.categories-card{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    padding-top: 60px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 50%;
+    border: 8px solid rgba(32, 135, 23, 0.50);
+}
+
+.categories-link{
+color: #1D9FDA;
+text-align: center;
+/* font-family: Manrope; */
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 125% */
+}
+
+.categories-card svg{
+    margin-bottom: 30px;
+}
+
+
+@media (max-width : 1050px) {
+    .categories-svg{
+        display: none;
+    }
+}

@@ -1,0 +1,29 @@
+.third-party-header{
+    height: 351px;
+    text-align: center;
+    gap: 72px;
+    background: linear-gradient(0deg, #DFE3E6 0%, #DFE3E6 50%, #DFE3E6 100%);
+}
+
+.third-party-heading{
+    color: #000;
+    font-family: "Roboto Slab";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 5rem;
+}
+
+
+@media (max-width : 850px) {
+    .third-party-heading{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 500px) {
+    .third-party-heading{
+        font-size: 24px;
+    }
+}

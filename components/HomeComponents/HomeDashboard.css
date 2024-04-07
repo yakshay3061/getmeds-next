@@ -1,0 +1,9 @@
+.home-dashboard{
+    min-height: 105vh;
+    background-image: url('../../public/homepageImage.png');
+    background-size: cover;
+    background-position: 80%;
+    background-repeat: no-repeat;
+}
+
+ 

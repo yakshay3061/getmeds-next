@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+
+.faq-container{
+    text-align: center;
+    padding-top: 10vh;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 10vh;
+}
+
+
+.faq-heading{
+color: #000;
+font-family: "Roboto Slab";
+font-size: 48px;
+font-style: normal;
+font-weight: 10;
+line-height: 64px;
+padding-bottom: 8vh;
+}
+
+.faq-content{
+    width: 100%;
+
+}
+
+.faq-card-item{
+margin-bottom: 3vh;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 12px;
+border: 1px solid rgba(0, 0, 0, 0.30);
+}
+
+.ques-and-icon{
+    display: flex;
+    align-items: center;
+}
+
+.faq-icon{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    display:inline-block;
+    margin-right: 15px;
+}
+
+.faq-question{
+display: inline-block;
+margin-right: 2px;
+color: #000;
+font-family: Manrope;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 38px; /* 158.333% */
+}
+
+
+.faq-answer{
+    display: block;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 3vh;
+    color: #000;
+    font-family: "Roboto Slab";
+    font-size: 16px; 
+    font-style: normal;
+    font-weight: 300;
+    line-height: 38px;
+}
+ 
+
+
+.faq-card-item.active {
+    border: none;
+   background: #FFF;
+   box-shadow: 4px 4px 50px 0px rgba(0, 0, 0, 0.25);
+}
+
+.got-another-ques{
+font-family: Manrope;
+font-size: 16px;
+font-weight: 500;
+margin-top: 5vh;
+}
+
+.faq-contact-link{
+    color: #1D9FDA;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+}
+
+@media (max-width: 850px) {
+    .faq-answer{
+        font-size: 8px;
+    }
+    .faq-question{
+        font-size: 16px;
+    }
+}
+

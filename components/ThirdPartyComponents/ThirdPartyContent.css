@@ -1,0 +1,12 @@
+.upper-card{
+    height: 731px;
+    background: url('../../public/third-party-img.png') #EBECED 80% / cover no-repeat;    
+    background-position: 100% 70%;
+    background-size: 732px 554px;
+}
+
+
+.upper-card-content{
+    width: 70%;
+    background-color: yellow;
+} 
